@@ -1,0 +1,64 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "A quiz app for quizes and exams for different purposes like practice, organization, schools,etc.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./startups/server.js",
+    "dev": "nodemon ./startups/server.js",
+    "debug": "ndb ./startups/server.js",
+    "start:prod": "NODE_ENV=production nodemon /startups/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theo-matt/Quizee-App.git"
+  },
+  "keywords": [
+    "quiz",
+    "exams",
+    "express",
+    "games",
+    "async",
+    "await",
+    "mongodb",
+    "mongoose",
+    "schema",
+    "aws",
+    "react",
+    "redux",
+    "webpack",
+    "sass",
+    "axios",
+    "ajax"
+  ],
+  "author": "Theo-matt",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.12",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.6.3",
+    "sharp": "^0.28.3",
+    "slugify": "^1.5.3",
+    "stripe": "^8.163.0",
+    "validator": "^13.6.0",
+    "xss-clean": "^0.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/Theo-matt/Quizee-App/issues"
+  },
+  "homepage": "https://github.com/Theo-matt/Quizee-App#readme",
+  "devDependencies": {}
+}
